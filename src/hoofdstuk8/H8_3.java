@@ -22,7 +22,7 @@ public class H8_3 extends Applet {
     public void init() {
         tekstvak = new TextField("", 20);
         label = new Label("Type een getal");
-        btw = 1.19;
+        btw = 1.25;
         knop = new Button("Bereken BTW");
         knop2 = new Button("Reset");
         KnopListener kl = new KnopListener();
