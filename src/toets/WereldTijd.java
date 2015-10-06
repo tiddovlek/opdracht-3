@@ -64,7 +64,7 @@ class tekstvakaction implements ActionListener {
        	if (tokio > 23) {
        		tokio -= 24;
        	}
-    	repaint();
+       	repaint();
     }
 
 }

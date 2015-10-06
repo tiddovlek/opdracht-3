@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 
 
 @SuppressWarnings("serial")
-public class h11_7 extends Applet {
+public class h11_8 extends Applet {
 int cijfer;
 
 
@@ -20,14 +20,14 @@ int cijfer;
 }
 	 
 	  public void paint(Graphics g) {
-	
+	setSize(750,750);
 		  int x = 10;
 		  int y = 10;
-		  int hoogte = 100;
-		  int laagte = 100;
+		  int hoogte = 300;
+		  int laagte = 500;
 
 		  
-		 for(int i = 0; i < 8; i++) {
+		 for(int i = 0; i < 50; i++) {
 			 
 	g.drawRoundRect(hoogte, hoogte, x, y, x, y);
 		hoogte -=5;
