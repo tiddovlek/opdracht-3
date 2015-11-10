@@ -39,7 +39,7 @@ public class h12_3 extends Applet {
 
 }
 
-class Actionlisteren implements ActionListener {
+public class Actionlisteren implements ActionListener {
 
 	public void actionPerformed(ActionEvent e) {
 		System.out.println(teller);
